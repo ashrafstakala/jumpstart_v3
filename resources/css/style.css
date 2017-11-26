@@ -1,0 +1,185 @@
+html {
+    font-size: 14px;
+    font-family: "Open Sans";
+}
+.jumbotron-bike {
+    background-image: url(../images/jumbotron-bike-small.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+.jumbotron-beer {
+    background-image: url(../images/jumbotron-beer.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+.jumbotron-flowers {
+    background-image: url(../images/jumbotron-flowers.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+.jumbotron-duffel {
+    background-image: url(../images/jumbotron-duffel.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+.image-container img {
+    max-height: 350px;
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.image-container img:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}
+.nav li {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+.jumbotron-bike h1, .jumbotron-beer h1, 
+.jumbotron-flowers h1, .jumbotron-duffel h1 {
+    margin-top: 15.85rem;
+    font-family: 'Monoton';
+    color: white;
+    text-align: center;
+    font-size: 7.1rem;
+    text-shadow: -1px -1px 0 #000,
+                 -1px -1px 0 #000,
+                 -1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+.jumbotron-bike p, .jumbotron-beer p,
+.jumbotron-flowers p, .jumbotron-duffel p {
+    color:white;
+    max-width: 51.3rem;
+    margin: auto;
+    text-shadow: -1px -1px 0 #000;
+    font-size: 1.4rem;
+}
+.btn-primary {
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.featured h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1.43rem;
+    color: #399bd1;
+    margin-top: 2rem;
+}
+.image-container {
+    overflow: hidden;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.featured-copy h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.featured-copy p {
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+.featured-copy li {
+    line-height: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.hightlight {
+    color: #399bd1;
+}
+.product-highlight h3 {
+    color: #399bd1;
+}
+.projects h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1.43rem;
+    margin-top: 1.43rem;
+}
+.projects h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1.43rem;
+    color: #399bd1;
+    margin-top: 1.43rem;
+}
+.projects h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1.43rem;
+}
+.project-title p {
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+footer h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 5.2rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+footer a {
+    margin-top: 1.4rem;
+}
+footer p {
+    text-align: center;
+    max-width: 42rem;
+    margin: auto;
+}
+footer {
+    background-color: #f3f3f3;
+}
+.btn, .btn-primary {
+    margin-top: 2.8rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    width: 11.4rem;
+    margin-bottom: 5.4rem;
+    font-weight: bold;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.relative-wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.projects .image-container {
+    height: 13.5rem;
+}
+.bottom-paragraph p {
+    margin-bottom: 5.85rem;
+    line-height: 1.4rem;
+}
+img {
+    width: 100%;
+}
+.navbar {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 560px) {
+    .jumbotron h1 {
+        font-size: 5.7rem;
+        font-family: 'Monoton';
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+                     -1px -1px 0 #000,
+                     -1px -1px 0 #000,
+                     -1px -1px 0 #000;
+    }
+    .jumbotron p {
+        margin-top: 1.4rem;
+    }
+}
