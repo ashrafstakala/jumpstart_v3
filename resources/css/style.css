@@ -168,10 +168,11 @@ img {
     font-weight: 600;
 }
 
-/* Mobile Responsive */
+/* Mobile Responsive v3*/
 @media only screen and (max-width: 560px) {
-    .jumbotron h1 {
-        font-size: 5.7rem;
+    .jumbotron-bike h1, .jumbotron-beer h1, 
+    .jumbotron-flowers h1, .jumbotron-duffel h1 {
+        font-size: 4.5rem;
         font-family: 'Monoton';
         color: white;
         text-shadow: -1px -1px 0 #000,
@@ -179,7 +180,14 @@ img {
                      -1px -1px 0 #000,
                      -1px -1px 0 #000;
     }
-    .jumbotron p {
+    .jumbotron-bike p, .jumbotron-beer p,
+    .jumbotron-flowers p, .jumbotron-duffel p {
         margin-top: 1.4rem;
+    }
+    .featured-copy h3 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 }
