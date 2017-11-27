@@ -141,10 +141,11 @@ footer p {
 }
 .footer-bottom {
     margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.4rem;   
 }
 .footer-bottom p {
     font-weight: bold;
+    font-size: 0.8rem;
 }
 .btn, .btn-primary {
     margin-top: 2.8rem;
